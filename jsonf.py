@@ -10,3 +10,4 @@ resp = json.loads(json_str)
 #print (resp)
 for values in resp:
     print (resp[values])
+    print (resp[key,values])
